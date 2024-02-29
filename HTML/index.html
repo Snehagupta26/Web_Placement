@@ -23,6 +23,9 @@
                     <li>
                     <a href = "#vacation">Plan Vacation</a>
                 </li>
+                <li>
+                    <a href = "#contact">contact me</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -121,7 +124,7 @@
             </table>
         </section>
         </article>
-    </main>
+    
         <hr>
         
         <article id = "vacation">
@@ -173,7 +176,37 @@
         <p>i <strong>wont go </strong>in cold places..</p>
     </section>
         </article>
+        <hr>
+        <article id = "contact">
+            <h2>contact me</h2>
+            <p>i want to hear from u</p>
 
+            <form action="https://httpbin.org/get" method = "get">
+                <p>
+                <label for="firstname">firstname : </label>
+                <input type="text" name="firstname" id="firstname" placeholder = "sneha" autocomplete="on" required autofocus>
+            </p>
+            <p>
+                <label for="lastname">lastname : </label>
+                <input type="text" name="lastname" id="lastname" placeholder = "gupta" autocomplete="on" required >
+            </p>
+            <p>
+                <label for="password">Password : </label>
+                <input type="password" name="password" id="password" placeholder = "secret"  required >
+            </p>
+            <p>
+                <label for="phone">Phone : </label>
+                <input type="tel" name="phone" id="phone" placeholder = "number" pattern = "[0-9]{3}[0-9]{3}[0-9]{4}"  required >
+            </p>
+            <p>
+                <label for="decade">Fav Decade : </label>
+                <input type="number" name="decade" id="decade" min = "1950" max = "2020" step = "10" value = "1980" >
+            </p>
+
+            </form>
+
+        </article>
+    </main>
         <hr>
         <footer>
 
