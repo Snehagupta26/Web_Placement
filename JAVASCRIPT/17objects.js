@@ -1,0 +1,2 @@
+//objects
+const myObj = { name}
